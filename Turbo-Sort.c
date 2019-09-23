@@ -8,7 +8,7 @@ int main()
         {
                scanf("%d",&n);
                 arr[n]++;
-               printf("%d\n",temp);
+               
         }
         for(i=0;i<1000001;i++)
                if(arr[i]){
