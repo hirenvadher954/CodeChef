@@ -15,6 +15,5 @@ int main()
        else if(a==b)
             printf("=\n");
     }
-
-    return 0;
+  return 0;
 }
