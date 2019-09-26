@@ -38,3 +38,34 @@ int main()
 
     return 0;
 }
+/*
+Diffrent Way to solve it.
+#include <stdio.h>
+
+int main(void) {
+    int i,t,n,s,a,b,c,p,q,sum;
+	scanf("%d",&t);
+	for(i=0; i<t; i++)
+	{
+	    scanf("%d",&n);
+	    s=n/100;
+	    n=n%100;
+	    a=n/50;
+	    n=n%50;
+	    b=n/10;
+	    n=n%10;
+	    c=n/5;
+	    n=n%5;
+	    p=n/2;
+	    n=n%2;
+	    q=n/1;
+	    sum=s+a+b+c+p+q;
+	    printf("%d\n",sum);
+	}
+	
+	return 0;
+}
+*/
+
+
+
