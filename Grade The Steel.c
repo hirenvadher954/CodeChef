@@ -10,9 +10,9 @@ int main(void) {
     if (x > 50 && y < 0.7 && z > 5600)
       printf("10\n");
     else if (x > 50 && y < 0.7)
-      printf("9 \n");
+      printf("9\n");
     else if (y < 0.7 && z > 5600)
-      printf("8 \n");
+      printf("8\n");
     else if (x > 50 && z > 5600)
       printf("7\n");
     else if (x > 50 || y < 0.7 || z > 5600)
