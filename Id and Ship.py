@@ -7,4 +7,6 @@ for i in range(t):
     elif a.lower() == 'c':
         print("Cruiser")
     elif a.lower() == 'd':
-        print("Destroyer")    
+        print("Destroyer")
+    elif a.lower() == 'f':
+        print("Frigate")    
