@@ -7,7 +7,7 @@ for i in range(int(input())):
     for i in range(1,100000):
         if(i%2==0):
             bob=bob+i
-            if(bob>b):
+            if bob>b:
                 k=0
                 break
         else:
