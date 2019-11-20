@@ -1,0 +1,10 @@
+t = int(input())
+l = list("abcdefghijklmnopqrstuvwxyz")
+for _ in range(t):
+	n = int(input())
+	ls = list(input())
+	for i in range(0,n-1,2):
+		ls[i],ls[i+1] = ls[i+1],ls[i]
+	for i in range(n):
+		ls[i] = l[26 - l.index(ls[i]) - 1]
+	print(''.join(ls))
