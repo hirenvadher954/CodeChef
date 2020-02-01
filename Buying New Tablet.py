@@ -8,6 +8,6 @@ for i in range(t):
 			if area < w*h:
 				area = w*h
 	if area == 0:
-		print("no tablet")
+		print("no Tablet")
 	else:
 		print(area)
