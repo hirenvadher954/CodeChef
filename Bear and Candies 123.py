@@ -1,5 +1,5 @@
 # cook your dish here
-for i in range(int(input())):
+for _ in range(int(input())):
     a,b=map(int,input().split())
     limak=0
     bob=0
