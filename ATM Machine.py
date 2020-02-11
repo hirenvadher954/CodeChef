@@ -1,5 +1,5 @@
 for _ in range(int(input())):
-    t,n = map(int,input().split())
+    t ,n = map(int,input().split())
     l = list(map(int,input().split()))
     m = []
     for val in l:
